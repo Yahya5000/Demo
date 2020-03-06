@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>APC</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+<!--Div 1-->
+<div id="div1">
+    <nav id="sltapc4">All rows
+        <button id="all" class="cbtn">Any thing</button>
+        <button id="fighters" class="cbtn">Fighters</button>
+        <button id="vehicles" class="cbtn">Vehicles</button>
+        <button id="shooters" class="cbtn">Shooters</button>
+    </nav>
+
+    <div id="S0-1">The first row
+        <select id="sltapc1" onchange="changeTable1(this.value)">
+            <option value="Destroya" class="cAll">Iron Teef The Destroya</option>
+            <option value="Militant" id="mil1" class="cFighters">Militant: Nile</option>
+            <option value="Forsaken" class="cAll">The Forsaken One</option>
+            <option value="Courageous" class="cFighters">Uqbah The Courageous</option>
+            <option value="Jax" class="cVehicles">The Flash: Jax</option>
+            <option value="Falcon" class="cVehicles">The Falcon: Khalid</option>
+            <option value="Barnes" class="cShooters">The Cincinnatus: Barnes</option>
+            <option value="Klause" class="cFighters">Light of the past: Klause</option>
+            <option value="Janissary" class="cShooters">Fatih The Janissary</option>
+            <option value="Nigel" class="cFighters">Viscount: Nigel</option>
+            <option value="Andre" class="cVehicles">The Panzer: Andre</option>
+            <option value="Vanguard" class="cVehicles">Vanguard: Iharakayo</option>
+            <option value="Juggernaut" class="cFighters">Juggernaut: Constantine</option>
+            <option value="Lian" class="cShooters">Deus ex Machina: Lian Cheng Xie</option>
+            <option value="Augustine" class="cShooters">Captain Augustine</option>
+            <option value="Diesel" class="cVehicles">Caesar: Diesel</option>
+        </select>
+    </div>
+
+
+    <div id="S0-2">The second row
+        <select id="sltapc2" onchange="changeTable2(this.value)">
+            <option value="Reaper" class="cAll">Reaper</option>
+            <option value="Razor" class="cVehicles">Razor: Musk</option>
+            <option id="han2" value="Hans" class="cShooters">Iron Guard: Hans</option>
+            <option id="mil2" value="Militant" class="cFighters">Militant: Nile</option>
+            <option value="WarHound" class="cAll">Adane The War Hound</option>
+            <option value="Arsenal" class="cAll">Sergej The Arsenal</option>
+            <option value="Jorge" class="cShooters">The Inquisitor: Jorge</option>
+            <option id="eudora2" value="Eudora" class="cShooters">The Executioner: Eudora</option>
+            <option id="jane2" value="Jane" class="cFighters">Knight: Jane</option>
+            <option id="captain2" value="Captain" class="cVehicles">Captain Ivanov</option>
+            <option value="Wings" class="cShooters">Wings of Liberty: Jason Van Dyck</option>
+            <option value="Lee" class="cFighters">Tech Priestess: Jiwon Lee</option>
+            <option value="Farseer" class="cVehicles">Farseer: Yuu'Chen Haa'm</option>
+        </select>
+    </div>
+
+
+    <div id="S0-3">The third row
+        <select id="sltapc3" onchange="changeTable3(this.value)">
+            <option value="ShootaMan" class="cAll">Shoota Man: Mohauuk</option>
+            <option id="han3" value="Hans" class="cShooters">Iron Guard: Hans</option>
+            <option value="Guardian" class="cAll">Dawn Gurdian: An'nuo</option>
+            <option value="Chuck" class="cVehicles">War Boss: Chuck</option>
+            <option value="Dragon" class="cFighters">Dragon's Rage: Danny</option>
+            <option value="Prof" class="cShooters">Part The Professional</option>
+            <option id="eudora3" value="Eudora" class="cShooters">The Executioner: Eudora</option>
+            <option id="jane3" value="Jane" class="cFighters">Knight: Jane</option>
+            <option id="captain3" value="Captain" class="cVehicles">Captain Ivanov</option>
+            <option value="Anastasia" class="cVehicles">Major Anastasia Nastya</option>
+            <option value="Veronica" class="cVehicles">Countdown: Veronica</option>
+            <option value="Bird" class="cShooters">Humming Bird: Lydia</option>
+            <option value="Walker" class="cFighters">Venom Walker: Davoros</option>
+        </select>
+    </div>
+</div>
+
+<div>
+    <div>
+        <table>
+            <tr>
+                <th>Hero:</th>
+                <td id="td1"><img
+                            src='https://1.bp.blogspot.com/-qzkRF2buWns/XkQuBAVWyvI/AAAAAAAAAGw/YZm7PiSEUrc3RJDnYSLiO8SyHIXsiGJtQCLcBGAsYHQ/s320/MEmu_cgay5sd8Ia-removebg-preview.png'>
+                </td>
+                <td id="td11"><img
+                            src='https://1.bp.blogspot.com/-6Dya89CS8Bs/XkQt8UvadmI/AAAAAAAAAGc/QfkMnMtogcwtNWux8-_pKM_Vopfc59tmACLcBGAsYHQ/s320/MEmu_6Wb0SoND45-removebg-preview.png'>
+                </td>
+                <td id="td111"><img
+                            src='https://1.bp.blogspot.com/-__SeUNNO6QA/XkQt_KfDIRI/AAAAAAAAAGk/pzHrWZNhweoMa8AfZO47D-X3-CXr3l07gCLcBGAsYHQ/s320/MEmu_H9vZiKdfRk-removebg-preview.png'>
+                </td>
+            </tr>
+            <tr>
+                <th>Name:</th>
+                <td id="td2">Iron Teef The Destroya</td>
+                <td id="td22">Reaper</td>
+                <td id="td222">Shoota Man: Mohauuk</td>
+            </tr>
+            <tr>
+                <th>Season:</th>
+                <td id="td3">S0</td>
+                <td id="td33">S0</td>
+                <td id="td333">S0</td>
+            </tr>
+            <tr>
+                <th>Type:</th>
+                <td id="td4">all</td>
+                <td id="td44">all</td>
+                <td id="td444">all</td>
+            </tr>
+            <tr>
+                <th>Position:</th>
+                <td id="td5">1</td>
+                <td id="td55">2</td>
+                <td id="td555">3</td>
+            </tr>
+            <tr>
+                <th>Abilities:</th>
+                <td id="td6">-</td>
+                <td id="td66">Attacker</td>
+                <td id="td666">Attacker</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!-- Javascript -->
+<script src="main.js"></script>
+
+</body>
+</html>
